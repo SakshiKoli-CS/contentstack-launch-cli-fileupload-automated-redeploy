@@ -1,0 +1,28 @@
+{
+  "project": {
+    "uid": "6879f9661156ed4435a5f598",
+    "name": "Automate_redeploy_example",
+    "projectType": "FILEUPLOAD",
+    "organizationUid": "bltb065b4ba5011f44e",
+    "environments": [
+      {
+        "uid": "6879f9661156ed4435a5f59f",
+        "name": "Default",
+        "frameworkPreset": "NEXTJS",
+        "__typename": "Environment"
+      }
+    ],
+    "__typename": "Project",
+    "deployments": [
+      {
+        "uid": "6879f9661156ed4435a5f5aa",
+        "status": "QUEUED",
+        "createdAt": "2025-07-18T07:36:06.938Z",
+        "updatedAt": "2025-07-18T07:36:07.110Z",
+        "deploymentUrl": "automateredeployexample.contentstackapps.com",
+        "commitMessage": "Triggered By File Upload",
+        "__typename": "Deployment"
+      }
+    ]
+  }
+}

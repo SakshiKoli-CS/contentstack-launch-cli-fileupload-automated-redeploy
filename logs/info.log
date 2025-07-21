@@ -1,0 +1,48 @@
+{"level":"info","message":"Skipped adding environment variables."}
+{"level":"info","message":"New project created successfully"}
+{"level":"info","message":"2025-07-18 07:36:19.618:  Installing dependencies..."}
+{"level":"info","message":"2025-07-18 07:36:23.934:  =========================================================="}
+{"level":"info","message":"2025-07-18 07:36:23.943:  Current Node.js Version: v22.14.0"}
+{"level":"info","message":"2025-07-18 07:36:23.945:  =========================================================="}
+{"level":"info","message":"2025-07-18 07:36:32.035:  added 29 packages, and audited 30 packages in 8s"}
+{"level":"info","message":"2025-07-18 07:36:32.037:  8 packages are looking for funding"}
+{"level":"info","message":"2025-07-18 07:36:32.039:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-18 07:36:32.040:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-18 07:36:32.042:  npm notice"}
+{"level":"info","message":"2025-07-18 07:36:32.044:  npm notice New minor version of npm available! 11.1.0 -> 11.4.2"}
+{"level":"info","message":"2025-07-18 07:36:32.045:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-18 07:36:32.047:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-18 07:36:32.048:  npm notice"}
+{"level":"info","message":"2025-07-18 07:36:35.296:  Init build..."}
+{"level":"info","message":"2025-07-18 07:36:36.884:  > build"}
+{"level":"info","message":"2025-07-18 07:36:36.886:  > next build"}
+{"level":"info","message":"2025-07-18 07:36:37.708:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-18 07:36:37.710:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-18 07:36:37.712:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-18 07:36:37.713:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-18 07:36:37.828:     ▲ Next.js 15.4.1"}
+{"level":"info","message":"2025-07-18 07:36:37.830:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-18 07:36:37.949:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-18 07:36:42.493:   ✓ Compiled successfully in 1000ms"}
+{"level":"info","message":"2025-07-18 07:36:42.495:     Collecting page data ..."}
+{"level":"info","message":"2025-07-18 07:36:43.603:     Generating static pages (0/3) ..."}
+{"level":"info","message":"2025-07-18 07:36:44.300:   ✓ Generating static pages (3/3)"}
+{"level":"info","message":"2025-07-18 07:36:44.951:     Finalizing page optimization ..."}
+{"level":"info","message":"2025-07-18 07:36:44.953:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-18 07:36:58.958:  Route (pages)                                Size  First Load JS"}
+{"level":"info","message":"2025-07-18 07:36:58.960:  ┌ ○ /                                       580 B        92.6 kB"}
+{"level":"info","message":"2025-07-18 07:36:58.962:  └ ○ /404                                    180 B        92.2 kB"}
+{"level":"info","message":"2025-07-18 07:36:58.964:  + First Load JS shared by all               92 kB"}
+{"level":"info","message":"2025-07-18 07:36:58.966:    ├ chunks/framework-7c95b8e5103c9e90.js  57.7 kB"}
+{"level":"info","message":"2025-07-18 07:36:58.967:    ├ chunks/main-f4d7ee4d792bb369.js       33.4 kB"}
+{"level":"info","message":"2025-07-18 07:36:58.969:    └ other shared chunks (total)             950 B"}
+{"level":"info","message":"2025-07-18 07:36:58.971:  ○  (Static)  prerendered as static content"}
+{"level":"info","message":"2025-07-18 07:36:58.999:  npm notice"}
+{"level":"info","message":"2025-07-18 07:36:59.000:  npm notice New minor version of npm available! 11.1.0 -> 11.4.2"}
+{"level":"info","message":"2025-07-18 07:36:59.002:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-18 07:36:59.004:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-18 07:36:59.005:  npm notice"}
+{"level":"info","message":"2025-07-18 07:37:00.121:  Build successful"}
+{"level":"info","message":"2025-07-18 07:37:00.123:  Cloud functions:"}
+{"level":"info","message":"2025-07-18 07:37:00.259:  None"}
+{"level":"info","message":"2025-07-18 07:37:57.443:  Build and hosting process completed successfully"}
