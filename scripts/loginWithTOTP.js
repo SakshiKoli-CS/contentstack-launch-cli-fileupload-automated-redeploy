@@ -1,14 +1,14 @@
 const axios = require('axios');
 const { authenticator } = require('otplib');
-require('dotenv').config();
 
 const email = process.env.CS_EMAIL;
 const password = process.env.CS_PASSWORD;
 const secret = process.env.TOTP_SECRET;
 
-if (!email || !password || !secret) {
-  console.error('❌ Missing environment variables. Check your .env file.');
-  process.exit(1);
+if (!process.env.CSDX_EMAIL || !process.env.CSDX_PASSWORD || !process.env.CSDX_TOTP_SECRET) {
+  console.error("❌ Missing required environment variables.")
+  console.log("🔍 Set them via .env for local or GitHub Secrets for CI.")
+  process.exit(1)
 }
 
 const otp = authenticator.generate(secret);
