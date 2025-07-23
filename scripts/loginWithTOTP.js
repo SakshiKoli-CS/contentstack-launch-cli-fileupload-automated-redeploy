@@ -1,9 +1,10 @@
 const axios = require('axios');
 const { authenticator } = require('otplib');
+require('dotenv').config();
 
-const email = process.env.CS_EMAIL;
-const password = process.env.CS_PASSWORD;
-const secret = process.env.TOTP_SECRET;
+const email = process.env.CSDX_EMAIL;
+const password = process.env.CSDX_PASSWORD;
+const secret = process.env.CSDX_TOTP_SECRET;
 
 if (!process.env.CSDX_EMAIL || !process.env.CSDX_PASSWORD || !process.env.CSDX_TOTP_SECRET) {
   console.error("❌ Missing required environment variables.")
