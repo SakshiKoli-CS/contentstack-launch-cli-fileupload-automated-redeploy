@@ -1,4 +1,4 @@
-name: Automate Redeployment
+name: Deployed to Launch 
 
 on:
   push:
@@ -48,14 +48,19 @@ jobs:
       - name: Set Launch Region
         run: csdx config:set:region AWS-NA
 
-      - name: Authenticate to Contentstack
+      - name: Login to Contentstack via TOTP
+        run: node scripts/loginWithTOTP.js
         env:
-          CSDX_EMAIL: ${{ secrets.CSDX_EMAIL }}
-          CSDX_PASSWORD: ${{ secrets.CSDX_PASSWORD }}
-        run:
-          csdx auth:login -u "$CSDX_EMAIL" -p "$CSDX_PASSWORD"
+         CSDX_EMAIL: ${{ secrets.CSDX_EMAIL }}
+         CSDX_PASSWORD: ${{ secrets.CSDX_PASSWORD }}
+         CSDX_TOTP_SECRET: ${{ secrets.CSDX_TOTP_SECRET }}
 
       - name: Deploy using Launch config
         run: 
-          csdx launch --redeploy-latest
+          csdx launch --redeploy-latest 
           
+        # ADD ENVIRONMENT FLAG IF YOU HAVE DIFFERENT ENVIRONMENT AND YOU WANT TO DEPLOY IN THE SPECIFIC ENVIRONMENT
+        # --environment EnvironmentName 
+
+        # ADD CONFIG FLAG IF YOU .cs-launch.json IS NOT IN THE ROOT DIRECTORY
+        # --config Path_to_launch_config_file
